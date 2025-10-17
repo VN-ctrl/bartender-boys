@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "bartender-ai",
+    "slug": "bartender-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera for ID scanning."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.bartenderai"
+    },
+    "android": {
+      "package": "com.yourcompany.bartenderai",
+      "permissions": ["CAMERA"]
+    }
+  }
+}

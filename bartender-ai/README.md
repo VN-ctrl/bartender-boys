@@ -2,23 +2,6 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Prerequisites
-
-Before you begin, make sure you have Node.js installed on your system:
-
-### Installing Node.js
-
-1. **Visit the official Node.js website**: Go to [nodejs.org](https://nodejs.org/)
-2. **Download the LTS version**: Choose the "LTS" (Long Term Support) version for stability
-3. **Run the installer**: Follow the installation instructions for your operating system
-4. **Verify installation**: Open your terminal and run:
-   ```bash
-   node --version
-   npm --version
-   ```
-
-You should see version numbers for both Node.js and npm.
-
 ## Get started
 
 1. Install dependencies
@@ -32,39 +15,6 @@ You should see version numbers for both Node.js and npm.
    ```bash
    npx expo start
    ```
-
-## Testing on Native Devices
-
-To test the app on your physical device, you'll need to install the **Expo Go** app:
-
-### Installing Expo Go
-
-1. **For iOS devices**:
-   - Open the App Store
-   - Search for "Expo Go"
-   - Install the official Expo Go app by Expo
-
-2. **For Android devices**:
-   - Open Google Play Store
-   - Search for "Expo Go"
-   - Install the official Expo Go app by Expo
-
-### Running the App on Your Device
-
-1. **Start the development server** (if not already running):
-   ```bash
-   npx expo start
-   ```
-
-2. **Scan the QR code**:
-   - **iOS**: Use your device's camera app to scan the QR code displayed in the terminal
-   - **Android**: Use the Expo Go app to scan the QR code
-
-3. **Alternative connection methods**:
-   - **Same network**: Make sure your device and computer are on the same Wi-Fi network
-   - **Tunnel mode**: If you're having network issues, press `s` in the terminal to switch to tunnel mode
-
-### Development Options
 
 In the output, you'll find options to open the app in a
 
